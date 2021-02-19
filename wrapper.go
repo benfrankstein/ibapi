@@ -97,7 +97,7 @@ type IbWrapper interface {
 
 // Wrapper is the default wrapper provided by this golang implement.
 type Wrapper struct {
-	orderID int64
+	OrderID int64
 }
 
 func (w *Wrapper) GetNextOrderID() (i int64) {
